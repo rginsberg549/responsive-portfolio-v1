@@ -1,14 +1,3 @@
-.content {
-  min-height: 400px;
-
-}
-
-
-
-
-
-
-.footer {
-    height: 50px;
-
+footer {
+  min-height: 50px;
 }
