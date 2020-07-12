@@ -1,3 +1,14 @@
 footer {
   min-height: 50px;
 }
+
+.card-title {
+  background-color: cadetblue;
+  position: relative;
+  width: 100%;
+  height: 60px ;
+  bottom: 90px;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
