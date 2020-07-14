@@ -17,3 +17,9 @@ footer {
   margin-bottom: 25px;
   margin-right: 25px;
 }
+
+.profile-img {
+  max-width: 500px;
+  max-height: 315px;
+
+}
