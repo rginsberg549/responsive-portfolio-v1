@@ -1,68 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css" >
-    <title>My Portfolio </title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
     <div class="container">
-        <div class="row">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-info col-sm-12 col-md-5">
-                <a class="navbar-brand mx-auto" href="/responsive-portfolio-v1/index.html"><strong>Ryan Ginsberg</strong></a>
-            </nav>
-            <div class="row col-sm-12 col-md-7 pt-3">
-                <ul class="list-inline mx-auto justify-content-center">
-                        <li class="list-inline-item border-right border-info pr-2"><a class="text-info" href="/responsive-portfolio-v1/index.html">About</a></li>
-                        <li class="list-inline-item border-right border-info pr-2"><a class="text-info" href="/responsive-portfolio-v1/portfolio.html">Portfolio</a></li>
-                        <li class="list-inline-item"><a class="text-info" href="/responsive-portfolio-v1/contact.html">Contact</a></li>
-                  </ul>
-            </div>
+      <div class="row">
+        <nav
+          class="navbar navbar-expand-lg navbar-dark bg-info col-sm-12 col-md-5"
+        >
+          <a
+            class="navbar-brand mx-auto"
+            href="/responsive-portfolio-v1/index.html"
+            ><strong>Ryan Ginsberg</strong></a
+          >
+        </nav>
+        <div class="row col-sm-12 col-md-7 pt-3">
+          <ul class="list-inline mx-auto justify-content-center">
+            <li class="list-inline-item border-right border-info pr-2">
+              <a class="text-info" href="/responsive-portfolio-v1/index.html"
+                >About</a
+              >
+            </li>
+            <li class="list-inline-item border-info pr-2">
+              <a
+                class="text-info"
+                href="/responsive-portfolio-v1/portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm border-bottom border-top">
+          <h1 class="text-info ml-3">Portfolio</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="card">
+          <img
+            class="card-img-top quicktrends-icon"
+            src="./img/quicktrends-icon.png"
+            alt="Card image cap"
+          />
+          <div class="card-body mx-auto">
+            <h5 class="card-title">Project #1 - QuickTrends</h5>
+            <p class="card-text">
+              A simple vanilla JS project featuring trend detection, company financials and a NYT Newsfeed.
+            </p>
+            <a href="https://rginsberg549.github.io/project-1-v2/" class="btn btn-primary my-3">View Deployed App</a>
+            <a href="https://github.com/rginsberg549/project-1-v2" class="btn btn-secondary">View Github Repo</a>
+          </div>
         </div>
 
-        <div class="row">
-            <div class="col-sm border-bottom border-top">
-                <h1 class="text-info ml-3">Portfolio</h1>
+        <div class="card">
+            <img
+              class="card-img-top"
+              src="./img/quicktrends-v2-screenshot.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project #2 - QuickTrends - V2</h5>
+              <p class="card-text">
+                Project #1 extension built with Node JS hosted on Heroku. Adds user registration & authenication, search history, revamp UI.
+              </p>
+              <a href="https://quicktrends.herokuapp.com/" class="btn btn-primary my-3">View Deployed App</a>
+              <p class="font-weight-bold">Note: No longer functional as API used was purchased.</p>
+            <a href="https://github.com/rginsberg549/quicktrends-v2" class="btn btn-secondary">View Github Repo</a>
             </div>
-        </div>
+          </div>
+      </div>
 
-            <div class="row">
-                <div class="col-sm col-md-6 mt-3">
-                    <img class="card-img-top" src="img/octavian-dan-b21Ty33CqVs-unsplash.jpg" alt="Card image cap">
-                    <p class="card-text">Project #1</p>
-                  </div>
-
-                <div class="col-sm col-md-6 mt-3">
-                    <img class="card-img-top" src="img/octavian-dan-b21Ty33CqVs-unsplash.jpg" alt="Card image cap">
-                    <p class="card-text">Project #2</p>
-                  </div>
-            </div>
-
-            <div class="row">
-
-                  <div class="col-sm col-md-6 mx-auto">
-                    <img class="card-img-top" src="img/octavian-dan-b21Ty33CqVs-unsplash.jpg" alt="Card image cap">
-                    <p class="card-text">Project #3</p>
-                  </div>
-
-                  <div class="col-sm col-md-6 mx-auto">
-                    <img class="card-img-top" src="img/octavian-dan-b21Ty33CqVs-unsplash.jpg" alt="Card image cap">
-                    <p class="card-text">Project #4</p>
-                  </div>
-            </div>
-
-            <div class="row">
-                  <div class="col-sm col-md-6 mx-auto">
-                    <img class="card-img-top" src="img/octavian-dan-b21Ty33CqVs-unsplash.jpg" alt="Card image cap">
-                    <p class="card-text">Project #5</p>
-                  </div>
-                </div>
-    
-            <footer class="row bg-info text-white">
-                <div class="mx-auto my-auto">Copyright</div>
-            </footer>
-        </div>  
-</body>
+      <footer class="row bg-info text-white mt-5">
+        <div class="mx-auto">Copyright</div>
+      </footer>
+    </div>
+  </body>
 </html>

@@ -1,40 +1,22 @@
 footer {
   min-height: 50px;
 }
-.card-text {
-  background-color: cadetblue;
-  position: relative;
-  height: 40px ;
-  bottom: 40px;
-  color: white;
-  align-items: center;
-  text-align: center;
-  max-width: 540px;
-}
 
-.card-text:hover{
-  background-color:rgb(115, 180, 182);
-
-}
 .card {
-  max-width: 275px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-right: 25px;
+  max-width: 50%;
 }
 
 .profile-img {
   max-width: 450px;
   max-height: 315px;
-
-}
-
-.card-img-top {
-  max-width: 540px;
 }
 
 .icon {
   max-width: 100px !important;
   max-height: 100px;
 
+}
+
+.quicktrends-icon {
+  max-width: 50%;
 }
