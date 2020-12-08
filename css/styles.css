@@ -32,3 +32,9 @@ footer {
 .card-img-top {
   max-width: 540px;
 }
+
+.icon {
+  max-width: 100px !important;
+  max-height: 100px;
+
+}
